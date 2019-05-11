@@ -1,0 +1,41 @@
+{
+  "name": "mui-editable-table-component",
+  "version": "1.1.0",
+  "description": "A react component for editabl table ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contactyash/mui-editable-table-component.git"
+  },
+  "keywords": [
+    "editable",
+    "table",
+    "materialui",
+    "react"
+  ],
+  "author": "yash rathore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/contactyash/mui-editable-table-component/issues"
+  },
+  "homepage": "https://github.com/contactyash/mui-editable-table-component#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist/*"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "@material-ui/core": "^3.2.0",
+    "classnames": "^2.2.6"
+  }
+}
